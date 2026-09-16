@@ -71,5 +71,4 @@ Built upon a strict $1:\ast$ single-direction relationship model, the Power BI s
 ## Conclusion
 
 By merging robust SAP-to-BI architecture with a clear executive business vision and zonal segmentation, the data platform of Global Health Retail Group Inc. establishes a new standard for corporate financial transparency and operational efficiency as of August 2026.
-```
-
+![Executive Financial Performance Dashboard](./images/Dash.png)
