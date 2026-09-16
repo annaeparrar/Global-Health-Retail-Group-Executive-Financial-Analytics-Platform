@@ -1,83 +1,87 @@
-# Global Health Retail Group Inc. — Executive Financial Performance
-
-[![Reporting Period: August 2026](https://img.shields.io/badge/Reporting%20Period-August%202026-blue.svg)](#)
-[![Scope: All Branches](https://img.shields.io/badge/Scope-All%20Branches-success.svg)](https://github.com)
-[![Status: Executive Ready](https://img.shields.io/badge/Status-Executive%20Ready-informational.svg)](https://github.com)
-
-A comprehensive executive summary and Power BI analytical repository for **Global Health Retail Group Inc.**, detailing the financial performance, cost structures, and profitability metrics for **August 2026**[cite: 2].
+# Global Health Retail Group Inc.
+## Executive Project Brochure: AI-Driven Financial & Operational Optimization Platform
+*Reporting Baseline: August 2026*
 
 ---
 
-## 📊 Dashboard Overview
+## Executive Summary
 
-The executive dashboard consolidates multi-branch ledger activity into an intuitive interface designed for high-level decision-makers and financial controllers[cite: 2].
+As the retail and healthcare sectors demand rapid agility and razor-sharp financial control, **Global Health Retail Group Inc.** presents its next-generation data platform. Transitioning from legacy SAP reporting to an advanced Business Intelligence ecosystem, this initiative unifies financial oversight across 14 standardized regional branches.
 
-![Executive Financial Performance Dashboard — August 2026](https://raw.githubusercontent.com/username/repository-name/main/assets/dashboard_august_2026.png)
-*(Figure 1. Executive Financial Performance Dashboard — August 2026)[cite: 2]*
-
----
-
-## 📋 Executive Summary
-
-The August 2026 executive dashboard provides a consolidated view of revenues, costs, expenses, and profitability for Global Health Retail Group Inc[cite: 2]. 
-* **Grand Total Revenues:** -$34.81 million *(reported under standard accounting sign conventions)*[cite: 2]
-* **Grand Total Costs:** $25.59 million[cite: 2]
-* **Grand Total Expenses:** $5.72 million[cite: 2]
-* **Profitability Before Non-Deductibles:** 15.47%[cite: 2]
-* **Net Profitability:** 10.03%[cite: 2]
-
-*Management Interpretation:* Revenue figures are presented with a negative sign consistent with standard ledger accounting conventions. Consequently, the profitability percentages serve as direct indicators of operational performance and should be evaluated alongside the underlying financial matrix[cite: 2].
+Designed for the August 2026 business environment and executive decision-makers, this model connects complex corporate accounting with high-performance analytics, delivering total transparency across revenues, costs, and expenses expressed in USD.
 
 ---
 
-## 📈 Key Financial Highlights
+## 1. Business Vision: Strategic Alignment & Value Creation
 
-| Indicator | August 2026 Amount | Executive Reading |
-| :--- | :---: | :--- |
-| **Grand Total Revenues** | -$34,805,371.77[cite: 2] | Primary revenue base; source uses a negative accounting sign[cite: 2]. |
-| **Grand Total Costs** | $25,594,747.44[cite: 2] | Largest cost block and principal driver of the financial structure[cite: 2]. |
-| **Grand Total Expenses** | $5,720,589.60[cite: 2] | Significant operating burden in addition to direct/indirect costs[cite: 2]. |
-| **Profitability Before Non-Deductibles** | 15.47%[cite: 2] | Reported profitability before accounting for non-deductible components[cite: 2]. |
-| **Net Profitability** | 10.03%[cite: 2] | Final reported net profitability indicator for the period[cite: 2]. |
+From a business perspective, the platform is engineered to align high-level corporate strategy with daily operational execution, ensuring financial governance and deep operational visibility.
 
----
+*   **Holistic Corporate Visibility:** Consolidates multi-branch ledger activity into a single source of truth, enabling leadership to track overall performance or zoom into specific districts instantly[cite: 1].
+*   **Benchmarking & Zonal Weighting:** Accurately manages multi-entity distribution by grouping stores into operational and geographical zones (Zones A, B, and C) backed by precise weighting factors[cite: 1].
+*   **Profitability Management:** Tracks core profitability metrics in real time, separating direct costs, indirect overheads, and non-deductible items to protect operating margins[cite: 1].
+*   **Executive Self-Service:** Empowers leaders with interactive global filters (Year 2026, Year-to-Date August, and Branch/Zone selection) to evaluate financial health without manual spreadsheet consolidation[cite: 1].
 
-## 🏷️ Revenue Composition
+### Zonal Breakdown and Branch Weighting
 
-Sales are highly concentrated across two primary revenue streams, with miscellaneous sales driving the majority of top-line activity[cite: 2].
+To optimize management reporting, the 14 branches are grouped and weighted by zone[cite: 1]:
 
-| Revenue Category | Reported Amount | Approx. Share* |
-| :--- | :---: | :---: |
-| **Miscellaneous Sales Revenue** | -$26,023,250.72[cite: 2] | ≈74.8%[cite: 2] |
-| **Medicine Sales Revenue** | -$8,763,064.07[cite: 2] | ≈25.2%[cite: 2] |
-| **Advertising & Other Revenues** | -$26,056.98[cite: 2] | ≈0.1%[cite: 2] |
-
-*\*Approximate shares are calculated against the absolute value of the three displayed revenue categories and may differ slightly due to rounding/sign conventions[cite: 2].*
-
----
-
-## ⚙️ Cost and Expense Structure
-
-* **Costs ($25,594,747.44):** Dominated by **Cost of Goods Sold** ($22.34M) and **Logistics & Distribution** ($3.25M)[cite: 2].
-* **Expenses ($5,720,589.60):** Comprising **Administrative Expenses** ($3.49M), **Marketing & Sales** ($1.21M), and **Other Expenses** ($1.02M)[cite: 2].
-
----
-
-## 💡 Strategic Management Considerations
-
-1. **Revenue Concentration:** Monitor exposure within *Miscellaneous Sales Revenue* and track underlying business drivers[cite: 2].
-2. **Cost Optimization:** Keep a close watch on *Cost of Goods Sold* and evaluate purchasing, product mix, and gross-margin management[cite: 2].
-3. **Supply Chain Efficiency:** Review *Logistics & Distribution* expenditures to capture operational efficiencies as volume and geographic footprint expand[cite: 2].
-4. **Expense Control:** Maintain strict visibility over *Administrative Expenses*, representing the largest individual expense category[cite: 2].
-5. **Profitability Analysis:** Utilize both pre-non-deductible (15.47%) and net profitability (10.03%) metrics concurrently to isolate core operational execution from non-deductible accounting impacts[cite: 2].
+| Zone | Branch / Store Name | Weighting (%) |
+| :---: | :--- | :---: |
+| **Zone A** | North District | 5%[cite: 1] |
+| **Zone A** | South District | 3%[cite: 1] |
+| **Zone A** | East District | 2%[cite: 1] |
+| **Zone A** | West District | 8%[cite: 1] |
+| **Zone B** | Central Hub | 10%[cite: 1] |
+| **Zone B** | Metro Branch 1 | 11%[cite: 1] |
+| **Zone B** | Metro Branch 2 | 6%[cite: 1] |
+| **Zone B** | Express 01 | 5%[cite: 1] |
+| **Zone B** | Express 02 | 12%[cite: 1] |
+| **Zone C** | Airport Store | 3%[cite: 1] |
+| **Zone C** | Suburban Plaza | 15%[cite: 1] |
+| **Zone C** | Mall Outlet A | 7%[cite: 1] |
+| **Zone C** | Mall Outlet B | 9%[cite: 1] |
+| **Zone C** | Retail Corner | 4%[cite: 1] |
+| **Total** | **All Zones Combined** | **100%**[cite: 1] |
 
 ---
 
-## 📂 Repository Structure
+## 2. Technical Architecture & Data Engineering
 
-* `docs/` — Full executive reports, summaries, and technical documentation.
-* `assets/` — Dashboard screenshots and visual assets (including dashboard preview image).
-* `sql/` — Analytical views and database schema definitions.
+From a technical standpoint, the platform implements modern data warehousing principles, ensuring absolute data integrity, query optimization, and seamless integration with BI visualization tools[cite: 1].
 
----
-*Global Health Retail Group Inc. | August 2026*[cite: 2]
+### A. Dimensional Storage Layer (Star Schema)
+To handle decentralized SAP postings efficiently, the backend is organized into standardized master catalogs and transactional fact tables[cite: 1]:
+*   **`dim_branch`:** Stores organizational metadata, mapping SAP plant codes (e.g., `NTH-01`) to descriptive names, regions, zonal assignments, and operational statuses (`Active`, `Closed`)[cite: 1].
+*   **`dim_account`:** Structures the corporate chart of accounts hierarchically across primary groups (*Revenues*, *Costs*, *Expenses*) and cost behaviors (*Direct*, *Indirect*, *Non-Deductible*)[cite: 1].
+*   **`dim_date`:** Provides rigorous temporal slicing anchored to the August 2026 baseline, covering years, months (`YYYYMM`), and quarters (`Q3`)[cite: 1].
+*   **`fact_branch_financials`:** Captures disaggregated transactional ledger line items linked via foreign keys to ensure referential integrity[cite: 1].
+
+### B. Consolidated Analytics View (`vw_consolidated_financial_summary`)
+A dedicated SQL analytics layer pre-aggregates movements and calculates dynamic window functions to determine proportional shares relative to enterprise grand totals and operational zones, ensuring instant query response times for reporting layers[cite: 1].
+
+```sql
+CREATE VIEW vw_consolidated_financial_summary AS
+SELECT 
+    d.year,
+    d.month_name,
+    b.branch_name, -- Permite segmentar por filial o ver 'All Branches' (Total General)
+    a.account_group,
+    a.cost_behavior,
+    a.account_name,
+    SUM(f.amount) AS total_amount,
+    SUM(f.amount) / SUM(SUM(f.amount)) OVER (PARTITION BY d.year, d.month_name, a.account_group) * 100 AS percentage_share
+FROM 
+    fact_branch_financials f
+JOIN 
+    dim_branch b ON f.branch_id = b.branch_id
+JOIN 
+    dim_account a ON f.account_id = a.account_id
+JOIN 
+    dim_date d ON f.date_id = d.date_id
+GROUP BY 
+    d.year,
+    d.month_name,
+    b.branch_name,
+    a.account_group,
+    a.cost_behavior,
+    a.account_name;
