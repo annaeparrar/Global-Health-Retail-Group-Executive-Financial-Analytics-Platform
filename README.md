@@ -59,6 +59,21 @@ To handle decentralized SAP postings efficiently, the backend is organized into 
 ### B. Consolidated Analytics View (`vw_consolidated_financial_summary`)
 A dedicated SQL analytics layer pre-aggregates movements and calculates dynamic window functions to determine proportional shares relative to enterprise grand totals and operational zones, ensuring instant query response times for reporting layers[cite: 1].
 
+### C. BI Semantic Model & DAX Logic (Power BI)
+
+Built upon a strict $1:\ast$ single-direction relationship model, the Power BI semantic engine powers core business logic[cite: 1]:
+
+*   **Net Profit / Net Income:** $\text{Total Revenues} - (\text{Total Costs} + \text{Total Expenses})$[cite: 1]
+*   **Net Profit Margin (%):** $\frac{\text{Net Profit}}{\text{Total Revenues}}$[cite: 1]
+*   **Branch / Zone Contribution (%):** Dynamically isolates regional and zonal performance against enterprise-wide benchmarks using respective weighting factors[cite: 1].
+
+---
+
+## Conclusion
+
+By merging robust SAP-to-BI architecture with a clear executive business vision and zonal segmentation, the data platform of Global Health Retail Group Inc. establishes a new standard for corporate financial transparency and operational efficiency as of August 2026[cite: 1].
+```[cite: 1]
+
 ```sql
 CREATE VIEW vw_consolidated_financial_summary AS
 SELECT 
@@ -85,17 +100,4 @@ GROUP BY
     a.account_group,
     a.cost_behavior,
     a.account_name;
-### C. BI Semantic Model & DAX Logic (Power BI)
 
-Built upon a strict $1:\ast$ single-direction relationship model, the Power BI semantic engine powers core business logic[cite: 1]:
-
-*   **Net Profit / Net Income:** $\text{Total Revenues} - (\text{Total Costs} + \text{Total Expenses})$[cite: 1]
-*   **Net Profit Margin (%):** $\frac{\text{Net Profit}}{\text{Total Revenues}}$[cite: 1]
-*   **Branch / Zone Contribution (%):** Dynamically isolates regional and zonal performance against enterprise-wide benchmarks using respective weighting factors[cite: 1].
-
----
-
-## Conclusion
-
-By merging robust SAP-to-BI architecture with a clear executive business vision and zonal segmentation, the data platform of Global Health Retail Group Inc. establishes a new standard for corporate financial transparency and operational efficiency as of August 2026[cite: 1].
-```[cite: 1]
